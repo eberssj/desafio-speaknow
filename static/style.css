@@ -180,6 +180,13 @@ a:hover{
     align-items: center;
 }
 
+.btn-custom:hover {
+    background-color: #4E2B0A !important;
+    border-color: #4E2B0A !important;
+}
+
+
+
 /* Quem Somos */
 
 .container1 {
@@ -212,6 +219,66 @@ label {
 input, textarea {
     margin-top: 5px;
 }
+
+/* botoes */
+
+.whatsapp-button {
+    background-color: #4E2B0A;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.whatsapp-button img {
+    margin-right: 10px;
+    width: 60px;  
+    height: 60px; 
+    filter: brightness(100);
+    align-items: center;
+}
+
+.email-button {
+    background-color: #4E2B0A;
+    border: none;
+    color: white;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.email-button img {
+    margin-right: 10px;
+    width: 60px;  
+    height: 60px; 
+    filter: brightness(100);
+    align-items: center;
+    justify-content: right !important;
+}
+
+.botoes {
+    display: flex; 
+    justify-content: center; 
+    gap: 2rem;  
+}
+
+.whatsapp-button, .email-button {
+    margin: 10px 10px; 
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
 /* footer */
 
 footer{
