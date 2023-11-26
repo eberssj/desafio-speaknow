@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" href="../static/img/iconlivro.png">
+    <title>{{ title }}</title>
+
+    {% endblock head %}
+</head>
+
+<body>
+    {% block header %}
+    <header>
+        <nav>
+            <div class="nav_esquerda">
+                <a href="/">
+                    <img srcset="../static/img/iconlivro200.png 200w, ../static/img/iconlivro500.png 500w"
+                    sizes="(max-width: 600px) 40px, 40px"
+                    alt="logo" class="logo">
+                </a>
+                <div class="nome-speaknow">
+                    <h3>
+                        SpeakNow
+                    </h3>
+                    <h4>
+                        Escola de línguas
+                    </h4>
+                </div>
+            </div>
+                
+        
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/quemsomos">Quem Somos</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    {% endblock header %}
+
+    {% block content %}
+
+    {% endblock content %}
+
+    {% block footer %}
+
+    <footer>
+
+        <div class="links-footer">
+            <a href="" target="_blank">
+                <img srcset="../static/img/ 200w, ../static/img/ 500w"
+                sizes="(max-width: 600px) 40px, 50px"
+                alt="linkedin" class="footer-icones">
+            </a>
+            <a href="" target="_blank">
+                <img srcset="../static/img/ 200w, ..static/img/ 500w"
+                sizes="(max-width: 600px) 40px, 50px"
+                alt="github" class="footer-icones">
+            </a>
+            <a href="" target="_blank">
+                <img srcset="../static/img/ 200w, ../static/img/ 500w"
+                sizes="(max-width: 600px) 40px, 50px"
+                alt="instagram" class="footer-icones">
+            </a>
+        </div>
+
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+{% endblock footer %}

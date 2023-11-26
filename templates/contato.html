@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="corpo">
+        <h1 class="titulo">Formas de contato:</h1>
+
+        <div class="conteudo-contato">
+    
+            <p class="p">Em caso de dúvida, estamos disponíveis para responder qualquer pergunta ou fornecer suporte. Entre em contato preenchendo o formulário abaixo ou utilizando nossas informações de contato. Nossa equipe está pronta para oferecer assistência e soluções. Agradecemos seu interesse e confiança em nossos serviços.</p>
+    
+            <h2 class="titulo">Formulário de Contato</h2>
+    
+            <form action="/submit_form" method="post">
+                <label for="fname">Nome</label>
+                <input type="text" id="fname" name="fname" placeholder="Seu nome...">
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Seu email...">
+    
+                <label   label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Sua mensagem..." style="height:200px"></textarea>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="../static/img/slide1speaknow.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="../static/img/slide2speaknow.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="../static/img/slide3speaknow.png" alt="Third slide">
+        </div>
+    </div>
+</div>
+
+<div class="corpo">
+    <div class="conteudo-home">
+        <h1 class="titulo-home titulo">
+            Sobre a escola:
+        </h1>
+
+        <div class="texto-home textos">
+            <p class="p1-home p">A escola de idiomas SpeakNow oferece uma ampla variedade de cursos para estudantes interessados em aprender diferentes línguas e explorar culturas diversas. Localizada em um ambiente acolhedor, a escola proporciona aulas interativas ministradas por professores experientes e apaixonados por idiomas. Os cursos abrangem desde línguas populares até as menos convencionais, oferecendo opções de aulas individuais, em grupo e intensivas para atender às necessidades dos alunos.
+            Além das aulas, a escola promove intercâmbios culturais para a imersão total na riqueza linguística e cultural. Os alunos não apenas aprimoram suas habilidades linguísticas, mas também vivenciam um enriquecimento pessoal ao mergulhar em novos idiomas e culturas. A SpeakNow é mais do que um centro de aprendizado de idiomas; é um lugar que elimina fronteiras e promove a compreensão mútua por meio da comunicação intercultural.
+            </p>
+            <img srcset="../static/img/classroom200.png 200w, ../static/img/classroom500.png 500w"
+                sizes="(max-width: 600px) 250px, 120px"
+            class="foto-minha" alt="foto minha">
+        </div>
+            
+        </p>
+        <div class="cursos">
+            <div class="titulo-cursos titulo">
+                <h1>Principais cursos:</h1>
+            </div>
+            <div class="container">
+
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/englishcard200.png 200w, ../static/img/englishcard500.png 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="en" class="card-photo">
+                    <div  class="card-body">
+                    
+                        <a href="" class="btn btn-primary btn-custom" target="_blank">Inglês</a>
+                    </div>
+                </div>
+        
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/frenchcard200.png 200w, ../static/img/frenchcard500.png 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="fr" class="card-photo">
+                    <div  class="card-body">
+                    
+                        <a href="" class="btn btn-primary btn-custom" target="_blank">Francês</a>
+                    </div>
+                </div>
+        
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/chineseclass200.png 200w, ../static/img/chineseclass500.png 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="fr" class="card-photo">
+                    <div  class="card-body">
+                    
+                        <a href="" class="btn btn-primary btn-custom" target="_blank">Mandarim</a>
+                    </div>
+                </div>
+        
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/koreanclass200.png 200w, ../static/img/koreanclass500.png 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="fr" class="card-photo">
+                    <div  class="card-body">
+                    
+                        <a href="" class="btn btn-primary btn-custom" target="_blank">Coreano</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/germanclass200.png 200w, ../static/img/germanclass500.png 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="fr" class="card-photo">
+                    <div  class="card-body">
+                    
+                        <a href="" class="btn btn-primary btn-custom" target="_blank">Alemão</a>
+                    </div>
+                </div>
+        
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/sims200.png 200w, ../static/img/sims500.png 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="fr" class="card-photo">
+                    <div  class="card-body">
+                    
+                        <a href="" class="btn btn-primary btn-custom" target="_blank">Simlish</a>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
